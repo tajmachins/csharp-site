@@ -488,7 +488,7 @@ Zamiast implementować interfejs `IComparer<T>`, można również dziedziczyć p
 > - `double HighestValue`                     - najwyższa wartość zarejestrowana spośród wszystkich czujników
 > - `double LowestTemp`                       - najniższa zarejestrowana temperatura
 > - `string MostReadings`                     - nazwa czujnika, z którego pochodzi najwięcej odczytów
-> - `TimeSpan TotalDuration`                  - różnica czasu między pierwszym a ostatnim zarejestrowanym odczytem wogóle
+> - `TimeSpan TotalDuration`                  - różnica czasu między pierwszym a ostatnim zarejestrowanym odczytem w ogóle
 > - `IList<string> UniqueSensors`             - lista wszystkich nazw czujników bez duplikatów
 > - `IList<(string, double)> AverageReadings` - średnia wartość odczytów dla każdego czujnika
 > - `IList<(string, TimeSpan)> LargestGaps`   - największy odstęp czasowy między dwoma kolejnymi odczytami (w porządku chronologicznym) dla każdego czujnika
